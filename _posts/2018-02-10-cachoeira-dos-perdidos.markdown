@@ -7,6 +7,7 @@ img: cachoeira_dos_perdidos/cachoeira_dos_perdidos_2.jpg
 description: A cachoeira dos perdidos está localizada na Fazenda Arca de Noé em Tijucas do Sul
 categories: cachoeiras
 trilha: "Fácil"
+valor: "R$ 10,00"
 ---
 
 A cachoeira dos perdidos está localizada na Fazenda Arca de Noé em Tijucas do Sul.

@@ -13,7 +13,10 @@ layout: default
       {% endif %}
       {{page.content | markdownify}}
       {% if post.trilha %}
-        <img class="page-img" src={{ "/assets/img/trail.svg" | prepend: site.baseurl }} alt="Dificuldade da trilha"> {{ post.trilha }}
+        <i class="material-icons" alt="Dificuldade da trilha.">directions_run</i> {{ post.trilha }}
+      {% endif %}
+      {% if post.valor %}
+        <i class="material-icons" alt="Valor para acesso.">attach_money</i> {{ post.valor }}
       {% endif %}
     </div>
     {% include disqus.html %}
