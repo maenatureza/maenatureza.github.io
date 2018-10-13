@@ -5,19 +5,52 @@ layout: default
   <div class="wrap-content">
     <header class="page-header">
       <h1 class="page-title">{{page.title}}</h1>
-      <div class="page-date"><span>{{post.date | date: '%d %b, %Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      <div class="page-date"><span>{{page.date | date: '%d/%m/%Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
     <div class="page-content">
       {% if page.img %}
       <img class="page-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
       {% endif %}
+
       {{page.content | markdownify}}
-      {% if post.trilha %}
-        <i class="material-icons" alt="Dificuldade da trilha.">directions_run</i> {{ post.trilha }}
+
+      <!-- https://materializecss.com/icons.html -->
+      {% if page.contato %}
+        <i class="material-icons" alt="Contato.">contact_phone</i> {{ page.contato }}</p>
       {% endif %}
-      {% if post.valor %}
-        <i class="material-icons" alt="Valor para acesso.">attach_money</i> {{ post.valor }}
+
+      {% if page.local %}
+        <i class="material-icons" alt="Local.">location_on</i> {{ page.local }}</p>
       {% endif %}
+
+      {% if page.valor %}
+        <i class="material-icons" alt="Valor para acesso.">attach_money</i> {{ page.valor }}</p>
+      {% endif %}
+
+      {% if page.trilha %}
+        <i class="material-icons" alt="Dificuldade da trilha.">directions_walk</i> {{ page.trilha }}</p>
+      {% endif %}
+
+      {% if page.estacionamento %}
+        <i class="material-icons" alt="Estacionamento.">directions_car</i> {{ page.estacionamento }}</p>
+      {% endif %}
+
+      {% if page.lanchonete %}
+        <i class="material-icons" alt="Lanchonete.">free_breakfast</i> {{ page.lanchonete }}</p>
+      {% endif %}
+
+      {% if page.hotel %}
+        <i class="material-icons" alt="Local para dormir.">hotel</i> {{ page.hotel }}</p>
+      {% endif %}
+
+      {% if page.acampamento %}
+        <i class="material-icons" alt="Local para acampar.">landscape</i> {{ page.acampamento }}</p>
+      {% endif %}
+
+      {% if page.mapa %}
+        <i class="material-icons" alt="Link para mapa.">map</i> <a href="{{ page.mapa }}">Google Maps</a></p>
+      {% endif %}
+
     </div>
     {% include disqus.html %}
   </div>
