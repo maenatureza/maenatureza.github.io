@@ -12,6 +12,9 @@ layout: default
       <img class="page-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
       {% endif %}
       {{page.content | markdownify}}
+      {% if page.title %}
+        <img class="page-img" src={{ "/assets/img/trail.svg" | prepend: site.baseurl }} alt="Dificuldade da trilha"> {{ post.trilha }}
+      {% endif %}
     </div>
     {% include disqus.html %}
   </div>
