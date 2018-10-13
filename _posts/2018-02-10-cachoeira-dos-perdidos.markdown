@@ -11,10 +11,10 @@ contato: "Osmarildo (41) 9 9647-7730"
 local: "Tijucas do Sul"
 mapa: "https://goo.gl/maps/VU6Rk3qnJJ62"
 valor: "R$ 10,00 (por pessoa)"
-trilha: "Fácil para chegar até a cachoeira, para trilha acima dela já fica Média"
-estacionamento: "Sim, possui estacionamento na entrada para a trilha (valor incluso na entrada)"
-lanchonete: "Sim, possui lanchonete na entrada da fazenda"
-acampamento: "Sim, pode acampar perto da Cachoeira ou no Morro"
+trilha: "Trilha fácil para chegar a cachoeira, para trilha acima dela já fica média, bem estreita e com nível de inclinação alto; para retorno é possível sentir a 'batata da perna' sendo um pouco mais exigida"
+estacionamento: "Possui estacionamento próximo na entrada para a trilha (sem custo)"
+lanchonete: "Possui lanchonete na entrada da fazenda"
+acampamento: "É possível acampar nas redondezas da cachoeira, bem como no Morro que tem na mesma fazenda"
 ---
 
 > A cachoeira dos perdidos está localizada na Fazenda Arca de Noé em Tijucas do Sul.
