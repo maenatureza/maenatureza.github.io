@@ -5,3 +5,6 @@ _site
 config.codekit
 
 .DS_Store
+
+Gemfile
+Gemfile.lock

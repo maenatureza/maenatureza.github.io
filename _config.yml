@@ -17,8 +17,8 @@ github: #Add your Github
 email: ggarciabas@googlemail.com #your-email@domain.com
 
 # Comments
-# comments: true
-discus-identifier: maenatureza # Add your Disqus identifier
+comments: true
+discus-identifier: "maenatureza" # Add your Disqus identifier
 
 # Paginate
 paginate: 5
